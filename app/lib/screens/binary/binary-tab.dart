@@ -8,7 +8,7 @@ Widget binary_tab(BuildContext context, setTxt) {
     Row(
       children: [
         Container(
-          width: width / 3 - 2.75,
+          width: width / 2 - 2.75,
           height: (height - 165) / 2,
           color: Colors.grey.shade800,
           child: TextButton(
@@ -29,7 +29,7 @@ Widget binary_tab(BuildContext context, setTxt) {
         ),
         SizedBox(width: 4,),
         Container(
-          width: width / 3 - 2.75,
+          width: width / 2 - 2.75,
           height: (height - 165) / 2,
           color: Colors.grey.shade800,
           child: TextButton(
@@ -47,10 +47,14 @@ Widget binary_tab(BuildContext context, setTxt) {
               ),
             ),
           ),
-        ),
-        SizedBox(width: 4,),
+        ),        
+      ]
+    ),
+    SizedBox(height: 4),
+    Row(
+      children: [
         Container(
-          width: width / 3 - 2.75,
+          width: width / 2 - 2.75,
           height: (height - 165) / 2,
           color: Colors.grey.shade800,
           child: TextButton(
@@ -67,32 +71,9 @@ Widget binary_tab(BuildContext context, setTxt) {
             )
           ),
         ),
-      ]
-    ),
-    SizedBox(height: 4),
-    Row(
-      children: [
-        Container(
-          width: (width / 3) + (width/6) - 2.75,
-          height: (height - 165) / 2,
-          color: Colors.grey.shade800,
-          child: TextButton(
-            style: ButtonStyle(
-              overlayColor: MaterialStateProperty.all(Colors.grey.shade600)
-            ),
-            onPressed: (){
-              setTxt("space");
-            },
-            child: Icon(
-              Icons.space_bar,
-              color: Colors.grey.shade300,
-              size: 32,
-            )
-          ),
-        ),
         SizedBox(width: 4,),
         Container(
-          width: (width / 3) + (width/6) - 2.75,
+          width: width / 2 - 2.75,
           height: (height - 165) / 2,
           color: Colors.amber,
           child: TextButton(

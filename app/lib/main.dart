@@ -1,6 +1,5 @@
 import 'package:app/screens/babilonic/babilonic.dart';
 import 'package:app/screens/binary/binary.dart';
-import 'package:app/screens/egyptian/egyptian.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -59,8 +58,6 @@ class Home extends StatelessWidget {
             ),
             buttons(context, "Babilônico"),
             dividor(),
-            buttons(context, "Egípcio"),
-            dividor(),
             buttons(context, "Binário"),
             dividor(),
           ],
@@ -97,13 +94,7 @@ Widget buttons(BuildContext context, text){
                 context,
                 MaterialPageRoute(builder: (context) => const Babilonic()),
               );
-            }
-            if (text == "Egípcio"){
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => const Egyptian()),
-              );
-            }
+            };
             if (text == "Binário"){
               Navigator.push(
                 context,
