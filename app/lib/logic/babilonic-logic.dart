@@ -1,4 +1,3 @@
-
 import 'package:app/logic/dividor.dart';
 
 class BabilonicLogic {
@@ -33,12 +32,7 @@ class BabilonicLogic {
   }
   List<String> algorismsToBabilonic(int number){
     List<String> arrows = [];
-    
-    if (number <= 10) {
-      for (var i = 0; i < number; i++) {
-        arrows.add("down");
-      }
-    } if(number < 60){
+    if(number < 60){
       List<dynamic> quocientAndRest = Dividor().divide(number, 10);
       if(quocientAndRest.length > 0){
         for(int i = 0; i < quocientAndRest[1]; i ++){
@@ -91,7 +85,6 @@ class BabilonicLogic {
         arrows.removeAt(arrows.length - 1);
       }
     }
-    
     return arrows;
   }
 }

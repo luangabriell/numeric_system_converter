@@ -1,7 +1,7 @@
 class Dividor {
   List<int> divide(int number, int divisor){
     List<int> returnValues = [];
-    if (number > divisor){
+    if (number >= divisor){
       String divisonResult = (number/divisor).toString(); 
 
       int quotient = int.parse(
