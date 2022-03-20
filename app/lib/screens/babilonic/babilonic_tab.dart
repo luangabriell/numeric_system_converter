@@ -9,7 +9,7 @@ Widget babilonic_tab(BuildContext context, setTxt) {
       children: [
         Container(
           width: width / 3 - 2.75,
-          height: (height - 165) / 2,
+          height: (height - 190) / 2,
           color: Colors.grey.shade800,
           child: TextButton(
             style: ButtonStyle(
@@ -28,7 +28,7 @@ Widget babilonic_tab(BuildContext context, setTxt) {
         SizedBox(width: 4,),
         Container(
           width: width / 3 - 2.75,
-          height: (height - 165) / 2,
+          height: (height - 190) / 2,
           color: Colors.grey.shade800,
           child: TextButton(
             style: ButtonStyle(
@@ -47,7 +47,7 @@ Widget babilonic_tab(BuildContext context, setTxt) {
         SizedBox(width: 4,),
         Container(
           width: width / 3 - 2.75,
-          height: (height - 165) / 2,
+          height: (height - 190) / 2,
           color: Colors.grey.shade800,
           child: TextButton(
             style: ButtonStyle(
@@ -70,7 +70,7 @@ Widget babilonic_tab(BuildContext context, setTxt) {
       children: [
         Container(
           width: (width / 3) + (width/6) - 2.75,
-          height: (height - 165) / 2,
+          height: (height - 190) / 2,
           color: Colors.grey.shade800,
           child: TextButton(
             style: ButtonStyle(
@@ -89,7 +89,7 @@ Widget babilonic_tab(BuildContext context, setTxt) {
         SizedBox(width: 4,),
         Container(
           width: (width / 3) + (width/6) - 2.75,
-          height: (height - 165) / 2,
+          height: (height - 190) / 2,
           color: Colors.amber,
           child: TextButton(
             style: ButtonStyle(

@@ -38,7 +38,7 @@ Widget numeric_tab(BuildContext context, setTxt, option, setOption) {
           children: [
             Container(
               width: width / 3 - 2.75,
-              height: (height - 172) / 4,
+              height: (height - 200) / 4,
               color: Colors.grey.shade800,
               child: TextButton(
                 style: ButtonStyle(
@@ -59,7 +59,7 @@ Widget numeric_tab(BuildContext context, setTxt, option, setOption) {
             SizedBox(width: 4),
             Container(
               width: width / 3 - 2.75,
-              height: (height - 172) / 4,
+              height: (height - 200) / 4,
               color: Colors.grey.shade800,
               child: TextButton(
                 style: ButtonStyle(
@@ -86,7 +86,7 @@ Widget numeric_tab(BuildContext context, setTxt, option, setOption) {
             SizedBox(width: 4),
             Container(
               width: width / 3 - 2.75,
-              height: (height - 172) / 4,
+              height: (height - 200) / 4,
               color: tabsText[2] == "translate"? Colors.amber:Colors.grey.shade800,
               child: TextButton(
                 style: ButtonStyle(
